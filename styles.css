@@ -1,0 +1,105 @@
+/* credit to https://codepen.io/MetalEscape/pen/WrYxVM for the meme CSS styling help */
+
+/* * {
+    box-sizing: border-box;
+  } */
+
+body {
+  /* width: 99%; */
+  margin: 0 auto;
+  background: turquoise;
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+
+}
+header  
+{
+  height: 100px;
+  background-color: magenta;
+  margin: 0;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Help on label align from https://stackoverflow.com/questions/10868640/align-html-input-fields-by */
+label {
+  display: inline-block;
+  float: left;
+  clear: left;
+  width: 300px;
+  text-align: right;
+  padding: 5px;
+}
+input {
+display: inline-block;
+float: left;
+margin:5px;
+}
+
+/* div {
+
+} */
+/* .col {
+    height:200px;
+    width:31%;
+    margin-left:2.1%;
+    display: inline-block;
+} */
+
+  img {
+    width:400px;
+    height: auto;
+    margin: 10px;
+
+}
+
+.inputs {
+  background-color: greenyellow;
+  height: 100px;
+  padding: 20px;
+}
+  
+  .excellence {
+    /* margin: 20px; */
+    /* background-image: url('http://vignette1.wikia.nocookie.net/meme/images/7/71/BusinessCat2.jpg'); */
+    /* background-size: 100%;  */
+    text-align: center;
+    position: relative;
+    /* margin-left:2.1%; */
+    display: inline-block;
+  }
+
+  .delete {
+    position: relative; 
+  }
+  
+.top, .bottom {
+    position: absolute; 
+    left: 0;
+    right: 0; 
+
+    padding: 0 5px;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    font-size: 2.5em;
+    text-transform: uppercase;
+    color: white;
+    letter-spacing: 1px;
+    text-shadow:2px 2px 0 #000,
+    -2px -2px 0 #000,
+    2px -2px 0 #000,
+    -2px 2px 0 #000,
+    0px 2px 0 #000,
+    2px 0px 0 #000,
+    0px -2px 0 #000,
+    -2px 0px 0 #000,
+    2px 2px 5px #000;
+  }
+  
+  .bottom {
+     bottom: 0;
+     margin: 50px 0;
+   }
+  
+  .top {
+     top: 0;
+     margin: 25px 0;
+   }
