@@ -19,7 +19,6 @@ document.addEventListener("click", function (event){
     }
 });
 
-
 function collectFormData(event) {
     return {
       imageurl: event.target.imgurl.value,
@@ -49,20 +48,16 @@ function addMemeToPage(data) {
     p2.classList.add("bottom")
     p2.innerText = data.textLow;
 
-    // Draw the text high
-    // let textH = document.getElementById('top');
-    // textH.innerText = data.textHigh;
-
-    // Draw the text low
-    // let textL = document.getElementById('bottom');
-    // textL.innerText = data.textLow;
-
+    // create delete button
 
     let buttonArea = document.createElement("div");
     let buttonBreak = document.createElement("br")
     let deleteButton = document.createElement("button");
+  
     deleteButton.classList.add("delete");
     deleteButton.innerText = "Delete";
+
+    // append elements
 
     newImg.append(p1, p2, buttonBreak, deleteButton);
 
