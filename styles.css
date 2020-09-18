@@ -1,11 +1,6 @@
 /* credit to https://codepen.io/MetalEscape/pen/WrYxVM for the meme CSS styling help */
 
-/* * {
-    box-sizing: border-box;
-  } */
-
 body {
-  /* width: 99%; */
   margin: 0 auto;
   background: turquoise;
   font-family: "Comic Sans MS", "Comic Sans", cursive;
@@ -35,16 +30,6 @@ float: left;
 margin:5px;
 }
 
-/* div {
-
-} */
-/* .col {
-    height:200px;
-    width:31%;
-    margin-left:2.1%;
-    display: inline-block;
-} */
-
   img {
     width:400px;
     height: auto;
@@ -59,12 +44,8 @@ margin:5px;
 }
   
   .excellence {
-    /* margin: 20px; */
-    /* background-image: url('http://vignette1.wikia.nocookie.net/meme/images/7/71/BusinessCat2.jpg'); */
-    /* background-size: 100%;  */
     text-align: center;
     position: relative;
-    /* margin-left:2.1%; */
     display: inline-block;
   }
 
